@@ -1,4 +1,4 @@
-@ProductApi_Task_HostAddress = http://localhost:5083
+@ProductApi_Task_HostAddress = http://localhost:5081
 
 GET {{ProductApi_Task_HostAddress}}/weatherforecast/
 Accept: application/json
