@@ -1,7 +1,5 @@
 using ProductApi_Task.Data;
 using ProductApi_Task.Models;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace ProductApi_Task.DataAccess
 {
@@ -16,7 +14,8 @@ namespace ProductApi_Task.DataAccess
 
         public IEnumerable<Order> GetOrdersByUser(int userId)
         {
-            return _context.Orders.Where(o => o.UserID == userId).ToList();
+            var resultList =  _context.Orders.Where(o => o.UserID == userId).ToList();
+            return resultList;
         }
 
         public void AddOrder(Order order)
