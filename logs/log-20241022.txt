@@ -1,0 +1,1332 @@
+2024-10-22 14:51:10.147 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 14:51:10.599 +05:30 [DBG] Hosting starting
+2024-10-22 14:51:11.375 +05:30 [INF] Now listening on: http://localhost:5083
+2024-10-22 14:51:11.375 +05:30 [DBG] Loaded hosting startup assembly ProductApi_Task
+2024-10-22 14:51:11.376 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 14:51:11.377 +05:30 [INF] Hosting environment: Development
+2024-10-22 14:51:11.377 +05:30 [INF] Content root path: C:\Users\ganesh_belamara\Desktop\DotNet\ProductApi_Task
+2024-10-22 14:51:11.377 +05:30 [DBG] Hosting started
+2024-10-22 14:51:12.067 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" accepted.
+2024-10-22 14:51:12.071 +05:30 [DBG] Connection id "0HN7IFBFFKEIC" accepted.
+2024-10-22 14:51:12.073 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" started.
+2024-10-22 14:51:12.077 +05:30 [DBG] Connection id "0HN7IFBFFKEIC" started.
+2024-10-22 14:51:12.323 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/swagger/index.html - null null
+2024-10-22 14:51:12.331 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 14:51:12.374 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-22 14:51:12.375 +05:30 [DBG] Request did not match any endpoints
+2024-10-22 14:51:12.500 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:51:12.504 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/swagger/index.html - 200 null text/html;charset=utf-8 183.5638ms
+2024-10-22 14:51:12.968 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/swagger/v1/swagger.json - null null
+2024-10-22 14:51:12.971 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-22 14:51:12.971 +05:30 [DBG] Request did not match any endpoints
+2024-10-22 14:51:13.246 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:51:13.247 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 279.7157ms
+2024-10-22 14:51:58.029 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/User - null null
+2024-10-22 14:51:58.038 +05:30 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-22 14:51:58.042 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-22 14:51:58.042 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:51:58.053 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:51:58.055 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-22 14:51:58.056 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:51:58.075 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.UserDTO]] GetAllUsers() on controller ProductApi_Task.Controllers.UserController (ProductApi_Task).
+2024-10-22 14:51:58.082 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:51:58.083 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:51:58.086 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:51:58.086 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:51:58.086 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:51:58.089 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:51:58.683 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-22 14:51:58.723 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:52:00.108 +05:30 [WRN] No store type was specified for the decimal property 'Total_Amount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-22 14:52:00.355 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:52:00.485 +05:30 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .Select(u => new UserDTO{ 
+        UserID = u.UserID, 
+        UserName = u.UserName, 
+        Email = u.Email 
+    }
+    )'
+2024-10-22 14:52:00.840 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<UserDTO>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            UserID -> 0
+            UserName -> 1
+            Email -> 2
+        SELECT u.UserID, u.UserName, u.Email
+        FROM Users AS u), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, UserDTO>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-10-22 14:52:00.907 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:52:00.963 +05:30 [DBG] Created DbConnection. (52ms).
+2024-10-22 14:52:00.968 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:52:01.988 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:52:01.996 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:52:02.008 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2024-10-22 14:52:02.014 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (20ms).
+2024-10-22 14:52:02.032 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[UserName], [u].[Email]
+FROM [Users] AS [u]
+2024-10-22 14:52:02.100 +05:30 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[UserName], [u].[Email]
+FROM [Users] AS [u]
+2024-10-22 14:52:02.121 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:52:02.133 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 23ms reading results.
+2024-10-22 14:52:02.136 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:52:02.146 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (9ms).
+2024-10-22 14:52:02.148 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:52:02.151 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:52:02.152 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:52:02.153 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:52:02.153 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:52:02.154 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:52:02.154 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.UserDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:52:02.169 +05:30 [INF] Executed action ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task) in 4074.979ms
+2024-10-22 14:52:02.169 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:52:02.169 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:52:02.176 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:52:02.188 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:52:02.197 +05:30 [DBG] Disposed connection to database '' on server '' (5ms).
+2024-10-22 14:52:02.198 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/User - 200 null application/json; charset=utf-8 4169.8446ms
+2024-10-22 14:52:19.249 +05:30 [DBG] Connection id "0HN7IFBFFKEIC" received FIN.
+2024-10-22 14:52:19.250 +05:30 [DBG] Connection id "0HN7IFBFFKEIC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 14:52:19.251 +05:30 [DBG] Connection id "0HN7IFBFFKEIC" disconnecting.
+2024-10-22 14:52:19.253 +05:30 [DBG] Connection id "0HN7IFBFFKEIC" stopped.
+2024-10-22 14:53:47.893 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Product - null null
+2024-10-22 14:53:47.895 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Product'
+2024-10-22 14:53:47.895 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)' with route pattern 'api/Product' is valid for the request path '/api/Product'
+2024-10-22 14:53:47.896 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)'
+2024-10-22 14:53:47.896 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:53:47.897 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)'
+2024-10-22 14:53:47.904 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.ProductDTO]] GetAllProducts() on controller ProductApi_Task.Controllers.ProductController (ProductApi_Task).
+2024-10-22 14:53:47.905 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:53:47.906 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:53:47.906 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:53:47.906 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:53:47.907 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:53:47.907 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.ProductController (ProductApi_Task)
+2024-10-22 14:53:47.911 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.ProductController (ProductApi_Task)
+2024-10-22 14:53:47.941 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:53:47.944 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .Select(p => new ProductDTO{ 
+        ProductID = p.ProductID, 
+        ProductName = p.ProductName, 
+        Price = p.Price 
+    }
+    )'
+2024-10-22 14:53:47.951 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<ProductDTO>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            ProductID -> 0
+            ProductName -> 1
+            Price -> 2
+        SELECT p.ProductID, p.ProductName, p.Price
+        FROM Products AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ProductDTO>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-10-22 14:53:47.952 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:53:47.953 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:53:47.953 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:53:47.956 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:53:47.957 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:53:47.958 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:53:47.958 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:53:47.959 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[ProductName], [p].[Price]
+FROM [Products] AS [p]
+2024-10-22 14:53:47.966 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[ProductName], [p].[Price]
+FROM [Products] AS [p]
+2024-10-22 14:53:47.972 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:53:47.972 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 5ms reading results.
+2024-10-22 14:53:47.973 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:53:47.974 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:53:47.975 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:53:47.976 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:53:47.976 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:53:47.977 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:53:47.977 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:53:47.977 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:53:47.977 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.ProductDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:53:47.996 +05:30 [INF] Executed action ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task) in 88.6946ms
+2024-10-22 14:53:47.997 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)'
+2024-10-22 14:53:47.997 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:53:47.997 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:53:47.998 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:53:47.998 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:53:47.999 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Product - 200 null application/json; charset=utf-8 105.6642ms
+2024-10-22 14:54:19.574 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Cart/4 - null null
+2024-10-22 14:54:19.574 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Cart/4'
+2024-10-22 14:54:19.575 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)' with route pattern 'api/Cart/{userId}' is valid for the request path '/api/Cart/4'
+2024-10-22 14:54:19.575 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:54:19.576 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:54:19.576 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:54:19.599 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.CartDTO]] GetCartItems(Int32) on controller ProductApi_Task.Controllers.CartController (ProductApi_Task).
+2024-10-22 14:54:19.600 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:54:19.600 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:54:19.600 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:54:19.600 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:54:19.600 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:54:19.601 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:54:19.602 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:54:19.610 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:54:19.616 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:54:19.617 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:54:19.618 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:54:19.618 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:54:19.620 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:54:19.786 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:54:19.803 +05:30 [DBG] Compiling query expression: 
+'DbSet<Cart>()
+    .Include(c => c.Product)
+    .Where(c => c.UserID == __userId_0)
+    .Select(c => new CartDTO{ 
+        CartID = c.CartID, 
+        UserID = c.UserID, 
+        ProductID = c.ProductID, 
+        Quantity = c.Quantity 
+    }
+    )'
+2024-10-22 14:54:19.864 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<CartDTO>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            CartID -> 0
+            UserID -> 1
+            ProductID -> 2
+            Quantity -> 3
+        SELECT c.CartID, c.UserID, c.ProductID, c.Quantity
+        FROM Carts AS c
+        WHERE c.UserID == @__userId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, CartDTO>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-10-22 14:54:19.878 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:54:19.878 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:54:19.879 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:54:19.880 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:54:19.880 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:54:19.880 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:54:19.889 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (9ms).
+2024-10-22 14:54:19.894 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:54:20.026 +05:30 [INF] Executed DbCommand (136ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:54:20.026 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:54:20.027 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results.
+2024-10-22 14:54:20.028 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:54:20.028 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:54:20.029 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:54:20.030 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:54:20.030 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:54:20.030 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:54:20.030 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:54:20.030 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:54:20.030 +05:30 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-22 14:54:20.033 +05:30 [INF] Executed action ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task) in 432.2658ms
+2024-10-22 14:54:20.033 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:54:20.033 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:54:20.033 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:54:20.033 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:54:20.033 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:54:20.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Cart/4 - 404 null application/json; charset=utf-8 459.6151ms
+2024-10-22 14:55:07.419 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5083/api/Cart/4 - application/json 67
+2024-10-22 14:55:07.419 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Cart/4'
+2024-10-22 14:55:07.420 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)' with route pattern 'api/Cart/{userId}' is valid for the request path '/api/Cart/4'
+2024-10-22 14:55:07.420 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)'
+2024-10-22 14:55:07.420 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:55:07.420 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)'
+2024-10-22 14:55:07.426 +05:30 [INF] Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddToCart(Int32, ProductApi_Task.DTOs.CartDTO) on controller ProductApi_Task.Controllers.CartController (ProductApi_Task).
+2024-10-22 14:55:07.426 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:55:07.427 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:55:07.427 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:55:07.427 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:55:07.427 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:55:07.427 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:55:07.429 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:55:07.429 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:07.430 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:55:07.430 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:07.430 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:07.430 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:07.431 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:07.431 +05:30 [DBG] Attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO' ...
+2024-10-22 14:55:07.432 +05:30 [DBG] Attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO' using the name '' in request data ...
+2024-10-22 14:55:07.434 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:55:07.441 +05:30 [DBG] Connection id "0HN7IFBFFKEIB", Request id "0HN7IFBFFKEIB:00000006": started reading request body.
+2024-10-22 14:55:07.442 +05:30 [DBG] Connection id "0HN7IFBFFKEIB", Request id "0HN7IFBFFKEIB:00000006": done reading request body.
+2024-10-22 14:55:07.452 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'ProductApi_Task.DTOs.CartDTO'
+2024-10-22 14:55:07.453 +05:30 [DBG] Done attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO'.
+2024-10-22 14:55:07.453 +05:30 [DBG] Done attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO'.
+2024-10-22 14:55:07.453 +05:30 [DBG] Attempting to validate the bound parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO' ...
+2024-10-22 14:55:07.462 +05:30 [DBG] Done attempting to validate the bound parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO'.
+2024-10-22 14:55:07.466 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:55:07.467 +05:30 [DBG] Compiling query expression: 
+'DbSet<Cart>()
+    .FirstOrDefault(c => c.UserID == __userId_0 && c.ProductID == __cartDto_ProductID_1)'
+2024-10-22 14:55:07.558 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Cart>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Cart.CartID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Cart.ProductID (int) Required FK Index, 1], [Property: Cart.Quantity (int) Required, 2], [Property: Cart.UserID (int) Required FK Index, 3] }
+        SELECT TOP(1) c.CartID, c.ProductID, c.Quantity, c.UserID
+        FROM Carts AS c
+        WHERE (c.UserID == @__userId_0) && (c.ProductID == @__cartDto_ProductID_1)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Cart>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-10-22 14:55:07.566 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:55:07.567 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:55:07.568 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.569 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.569 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:07.569 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:07.570 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-10-22 14:55:07.571 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32), @__cartDto_ProductID_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0 AND [c].[ProductID] = @__cartDto_ProductID_1
+2024-10-22 14:55:07.627 +05:30 [INF] Executed DbCommand (56ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__cartDto_ProductID_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0 AND [c].[ProductID] = @__cartDto_ProductID_1
+2024-10-22 14:55:07.628 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.628 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:55:07.628 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.628 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:07.679 +05:30 [DBG] 'AppDbContext' generated a temporary value for the property 'Cart.CartID'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:07.747 +05:30 [DBG] Context 'AppDbContext' started tracking 'Cart' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:07.752 +05:30 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-22 14:55:07.755 +05:30 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-22 14:55:07.769 +05:30 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-22 14:55:07.902 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.902 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.904 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:07.905 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:07.905 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:07.905 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Carts] ([ProductID], [Quantity], [UserID])
+OUTPUT INSERTED.[CartID]
+VALUES (@p0, @p1, @p2);
+2024-10-22 14:55:07.918 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Carts] ([ProductID], [Quantity], [UserID])
+OUTPUT INSERTED.[CartID]
+VALUES (@p0, @p1, @p2);
+2024-10-22 14:55:07.933 +05:30 [DBG] The foreign key property 'Cart.CartID' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-22 14:55:07.945 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.945 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 27ms reading results.
+2024-10-22 14:55:07.946 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:07.946 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:07.967 +05:30 [DBG] An entity of type 'Cart' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:07.968 +05:30 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-10-22 14:55:07.970 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:55:07.970 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-22 14:55:07.970 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:55:07.971 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:55:07.971 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:55:07.971 +05:30 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-22 14:55:08.004 +05:30 [DBG] Found the endpoints ["ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)"] for address (userId=[4],action=[GetCartItems],controller=[Cart])
+2024-10-22 14:55:08.012 +05:30 [DBG] Successfully processed template api/Cart/{userId} for ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task) resulting in /api/Cart/4 and 
+2024-10-22 14:55:08.014 +05:30 [DBG] Link generation succeeded for endpoints ["ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)"] with result /api/Cart/4
+2024-10-22 14:55:08.015 +05:30 [INF] Executed action ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task) in 587.9273ms
+2024-10-22 14:55:08.015 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)'
+2024-10-22 14:55:08.015 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:55:08.016 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:55:08.016 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:08.016 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:55:08.016 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5083/api/Cart/4 - 201 null application/json; charset=utf-8 597.2002ms
+2024-10-22 14:55:15.534 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Cart/4 - null null
+2024-10-22 14:55:15.535 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Cart/4'
+2024-10-22 14:55:15.535 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)' with route pattern 'api/Cart/{userId}' is valid for the request path '/api/Cart/4'
+2024-10-22 14:55:15.535 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:55:15.536 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:55:15.536 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:55:15.536 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.CartDTO]] GetCartItems(Int32) on controller ProductApi_Task.Controllers.CartController (ProductApi_Task).
+2024-10-22 14:55:15.537 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:55:15.537 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:55:15.537 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:55:15.537 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:55:15.537 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:55:15.537 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:55:15.546 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:55:15.547 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:15.547 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:55:15.547 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:15.547 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:15.547 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:15.547 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:15.549 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:55:15.558 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:55:15.559 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:55:15.559 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:15.559 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:15.559 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:15.559 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:15.559 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:15.559 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:55:15.573 +05:30 [INF] Executed DbCommand (14ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:55:15.574 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:15.574 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:55:15.574 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:15.574 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:15.574 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:55:15.574 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:55:15.575 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:55:15.575 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:55:15.575 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:55:15.575 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:55:15.575 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.CartDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:55:15.578 +05:30 [INF] Executed action ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task) in 40.4058ms
+2024-10-22 14:55:15.578 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:55:15.578 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:55:15.578 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:55:15.578 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:15.578 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:55:15.578 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Cart/4 - 200 null application/json; charset=utf-8 43.9229ms
+2024-10-22 14:55:35.115 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5083/api/Order/4 - null 0
+2024-10-22 14:55:35.116 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Order/4'
+2024-10-22 14:55:35.116 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)' with route pattern 'api/Order/{userId}' is valid for the request path '/api/Order/4'
+2024-10-22 14:55:35.116 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)'
+2024-10-22 14:55:35.116 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:55:35.116 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)'
+2024-10-22 14:55:35.120 +05:30 [INF] Route matched with {action = "PlaceOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult PlaceOrder(Int32) on controller ProductApi_Task.Controllers.OrderController (ProductApi_Task).
+2024-10-22 14:55:35.121 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:55:35.121 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:55:35.121 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:55:35.121 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:55:35.122 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:55:35.122 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:55:35.124 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:55:35.124 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:35.125 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:55:35.125 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:35.125 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:35.125 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:35.126 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:35.131 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:55:35.131 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:55:35.132 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:55:35.132 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.132 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.132 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:35.132 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:35.133 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:35.133 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:55:35.135 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:55:35.135 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.136 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:55:35.136 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.136 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:35.149 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()
+    .FirstOrDefault(e => EF.Property<int>(e, "ProductID") == __p_0)'
+2024-10-22 14:55:35.183 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.ProductID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Price (decimal) Required, 1], [Property: Product.ProductName (string) Required, 2] }
+        SELECT TOP(1) p.ProductID, p.Price, p.ProductName
+        FROM Products AS p
+        WHERE p.ProductID == @__p_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2024-10-22 14:55:35.185 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.186 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.186 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:35.186 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:35.186 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:35.187 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductID], [p].[Price], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__p_0
+2024-10-22 14:55:35.189 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductID], [p].[Price], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__p_0
+2024-10-22 14:55:35.198 +05:30 [DBG] Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:35.215 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.216 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 26ms reading results.
+2024-10-22 14:55:35.216 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.216 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:35.222 +05:30 [DBG] 'AppDbContext' generated a temporary value for the property 'Order.OrderId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:35.242 +05:30 [DBG] Context 'AppDbContext' started tracking 'Order' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:35.246 +05:30 [DBG] Compiling query expression: 
+'DbSet<Cart>()
+    .Where(c => c.UserID == __userId_0)'
+2024-10-22 14:55:35.253 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Cart>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Cart.CartID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Cart.ProductID (int) Required FK Index, 1], [Property: Cart.Quantity (int) Required, 2], [Property: Cart.UserID (int) Required FK Index, 3] }
+        SELECT c.CartID, c.ProductID, c.Quantity, c.UserID
+        FROM Carts AS c
+        WHERE c.UserID == @__userId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Cart>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-10-22 14:55:35.254 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.255 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.255 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:35.255 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:35.255 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:35.255 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:55:35.258 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:55:35.263 +05:30 [DBG] Context 'AppDbContext' started tracking 'Cart' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:35.264 +05:30 [DBG] An entity of type 'Cart' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:35.266 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.266 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 7ms reading results.
+2024-10-22 14:55:35.266 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.266 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:35.267 +05:30 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-22 14:55:35.267 +05:30 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-22 14:55:35.289 +05:30 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-22 14:55:35.316 +05:30 [DBG] Executing 2 update commands as a batch.
+2024-10-22 14:55:35.319 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.320 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.323 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-22 14:55:35.331 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-10-22 14:55:35.334 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:35.334 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:35.339 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-10-22 14:55:35.339 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Carts]
+OUTPUT 1
+WHERE [CartID] = @p0;
+INSERT INTO [Orders] ([Total_Amount], [UserID])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p1, @p2);
+2024-10-22 14:55:35.352 +05:30 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Carts]
+OUTPUT 1
+WHERE [CartID] = @p0;
+INSERT INTO [Orders] ([Total_Amount], [UserID])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p1, @p2);
+2024-10-22 14:55:35.355 +05:30 [DBG] The foreign key property 'Order.OrderId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-22 14:55:35.356 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.357 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 4ms reading results.
+2024-10-22 14:55:35.360 +05:30 [DBG] Committing transaction.
+2024-10-22 14:55:35.370 +05:30 [DBG] Committed transaction.
+2024-10-22 14:55:35.371 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.372 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:35.374 +05:30 [DBG] Disposing transaction.
+2024-10-22 14:55:35.375 +05:30 [DBG] An entity of type 'Order' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:35.380 +05:30 [DBG] An entity of type 'Cart' tracked by 'AppDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:55:35.380 +05:30 [DBG] SaveChanges completed for 'AppDbContext' with 2 entities written to the database.
+2024-10-22 14:55:35.380 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:55:35.380 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-22 14:55:35.381 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:55:35.381 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:55:35.381 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:55:35.381 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-22 14:55:35.381 +05:30 [INF] Executed action ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task) in 259.3329ms
+2024-10-22 14:55:35.381 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)'
+2024-10-22 14:55:35.381 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:55:35.381 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:55:35.381 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:35.382 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:55:35.382 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5083/api/Order/4 - 200 null application/json; charset=utf-8 266.4965ms
+2024-10-22 14:55:47.917 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Order/4 - null null
+2024-10-22 14:55:47.918 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Order/4'
+2024-10-22 14:55:47.918 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)' with route pattern 'api/Order/{userId}' is valid for the request path '/api/Order/4'
+2024-10-22 14:55:47.918 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)'
+2024-10-22 14:55:47.919 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:55:47.919 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)'
+2024-10-22 14:55:47.923 +05:30 [INF] Route matched with {action = "GetOrdersByUser", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.OrderDTO]] GetOrdersByUser(Int32) on controller ProductApi_Task.Controllers.OrderController (ProductApi_Task).
+2024-10-22 14:55:47.924 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:55:47.924 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:55:47.924 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:55:47.924 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:55:47.924 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:55:47.924 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:55:47.927 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:55:47.927 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:47.928 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:55:47.928 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:47.928 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:47.928 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:55:47.929 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:55:47.935 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:55:47.938 +05:30 [DBG] Compiling query expression: 
+'DbSet<Order>()
+    .Where(o => o.UserID == __userId_0)
+    .Select(o => new OrderDTO{ 
+        OrderId = o.OrderId, 
+        UserID = o.UserID, 
+        Total_Amount = o.Total_Amount 
+    }
+    )'
+2024-10-22 14:55:47.946 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<OrderDTO>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            OrderId -> 0
+            UserID -> 1
+            Total_Amount -> 2
+        SELECT o.OrderId, o.UserID, o.Total_Amount
+        FROM Orders AS o
+        WHERE o.UserID == @__userId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, OrderDTO>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-10-22 14:55:47.947 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:55:47.947 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:55:47.947 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:47.947 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:47.947 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:55:47.947 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:47.947 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:55:47.947 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[UserID], [o].[Total_Amount]
+FROM [Orders] AS [o]
+WHERE [o].[UserID] = @__userId_0
+2024-10-22 14:55:47.950 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[UserID], [o].[Total_Amount]
+FROM [Orders] AS [o]
+WHERE [o].[UserID] = @__userId_0
+2024-10-22 14:55:47.951 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:47.951 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 1ms reading results.
+2024-10-22 14:55:47.951 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:47.952 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:55:47.952 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:55:47.952 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:55:47.952 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:55:47.952 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:55:47.952 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:55:47.952 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:55:47.952 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.OrderDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:55:47.955 +05:30 [INF] Executed action ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task) in 30.56ms
+2024-10-22 14:55:47.955 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)'
+2024-10-22 14:55:47.956 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:55:47.956 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:55:47.957 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:55:47.957 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:55:47.957 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Order/4 - 200 null application/json; charset=utf-8 40.0791ms
+2024-10-22 14:56:36.940 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/User - null null
+2024-10-22 14:56:36.941 +05:30 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-22 14:56:36.941 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-22 14:56:36.941 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:56:36.941 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:56:36.941 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:56:36.942 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.UserDTO]] GetAllUsers() on controller ProductApi_Task.Controllers.UserController (ProductApi_Task).
+2024-10-22 14:56:36.942 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:56:36.942 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:56:36.942 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:56:36.942 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:56:36.942 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:56:36.942 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:56:36.943 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:56:36.945 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:56:36.946 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:56:36.946 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:56:36.946 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:56:36.946 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:56:36.946 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:56:36.946 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:56:36.947 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:56:36.947 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[UserName], [u].[Email]
+FROM [Users] AS [u]
+2024-10-22 14:56:36.949 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[UserName], [u].[Email]
+FROM [Users] AS [u]
+2024-10-22 14:56:36.950 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:56:36.950 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:56:36.950 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:56:36.950 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:56:36.951 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:56:36.951 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:56:36.951 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:56:36.951 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:56:36.952 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:56:36.952 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:56:36.952 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.UserDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:56:36.953 +05:30 [INF] Executed action ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task) in 10.4234ms
+2024-10-22 14:56:36.953 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:56:36.953 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:56:36.953 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:56:36.954 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:56:36.954 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:56:36.954 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/User - 200 null application/json; charset=utf-8 13.6446ms
+2024-10-22 14:57:10.178 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5083/api/User - application/json 66
+2024-10-22 14:57:10.178 +05:30 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-22 14:57:10.178 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.UserController.AddUser (ProductApi_Task)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-22 14:57:10.178 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.UserController.AddUser (ProductApi_Task)'
+2024-10-22 14:57:10.179 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:57:10.179 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.UserController.AddUser (ProductApi_Task)'
+2024-10-22 14:57:10.181 +05:30 [INF] Route matched with {action = "AddUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddUser(ProductApi_Task.DTOs.UserDTO) on controller ProductApi_Task.Controllers.UserController (ProductApi_Task).
+2024-10-22 14:57:10.181 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:57:10.181 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:57:10.181 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:57:10.181 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:57:10.181 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:57:10.181 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:57:10.183 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:57:10.183 +05:30 [DBG] Attempting to bind parameter 'userDto' of type 'ProductApi_Task.DTOs.UserDTO' ...
+2024-10-22 14:57:10.184 +05:30 [DBG] Attempting to bind parameter 'userDto' of type 'ProductApi_Task.DTOs.UserDTO' using the name '' in request data ...
+2024-10-22 14:57:10.184 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:57:10.185 +05:30 [DBG] Connection id "0HN7IFBFFKEIB", Request id "0HN7IFBFFKEIB:0000000B": started reading request body.
+2024-10-22 14:57:10.185 +05:30 [DBG] Connection id "0HN7IFBFFKEIB", Request id "0HN7IFBFFKEIB:0000000B": done reading request body.
+2024-10-22 14:57:10.186 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'ProductApi_Task.DTOs.UserDTO'
+2024-10-22 14:57:10.186 +05:30 [DBG] Done attempting to bind parameter 'userDto' of type 'ProductApi_Task.DTOs.UserDTO'.
+2024-10-22 14:57:10.186 +05:30 [DBG] Done attempting to bind parameter 'userDto' of type 'ProductApi_Task.DTOs.UserDTO'.
+2024-10-22 14:57:10.186 +05:30 [DBG] Attempting to validate the bound parameter 'userDto' of type 'ProductApi_Task.DTOs.UserDTO' ...
+2024-10-22 14:57:10.190 +05:30 [DBG] Done attempting to validate the bound parameter 'userDto' of type 'ProductApi_Task.DTOs.UserDTO'.
+2024-10-22 14:57:10.193 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:57:10.195 +05:30 [DBG] 'AppDbContext' generated a temporary value for the property 'User.UserID'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:57:10.206 +05:30 [DBG] Context 'AppDbContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:57:10.206 +05:30 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-22 14:57:10.206 +05:30 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-22 14:57:10.210 +05:30 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-22 14:57:10.211 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:57:10.211 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:57:10.211 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:10.211 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:10.211 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:57:10.212 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:57:10.213 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-10-22 14:57:10.213 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 100) (DbType = AnsiString), @p1='?' (Size = 100) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [UserName])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1);
+2024-10-22 14:57:10.229 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 100) (DbType = AnsiString), @p1='?' (Size = 100) (DbType = AnsiString)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [UserName])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1);
+2024-10-22 14:57:10.230 +05:30 [DBG] The foreign key property 'User.UserID' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-22 14:57:10.231 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:10.231 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 2ms reading results.
+2024-10-22 14:57:10.231 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:10.232 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:57:10.232 +05:30 [DBG] An entity of type 'User' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:57:10.233 +05:30 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-10-22 14:57:10.233 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:57:10.233 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-22 14:57:10.233 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:57:10.233 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:57:10.233 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:57:10.233 +05:30 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-22 14:57:10.234 +05:30 [DBG] Found the endpoints ["ProductApi_Task.Controllers.UserController.GetUserById (ProductApi_Task)"] for address (id=[0],action=[GetUserById],controller=[User])
+2024-10-22 14:57:10.234 +05:30 [DBG] Successfully processed template api/User/{id} for ProductApi_Task.Controllers.UserController.GetUserById (ProductApi_Task) resulting in /api/User/0 and 
+2024-10-22 14:57:10.234 +05:30 [DBG] Link generation succeeded for endpoints ["ProductApi_Task.Controllers.UserController.GetUserById (ProductApi_Task)"] with result /api/User/0
+2024-10-22 14:57:10.235 +05:30 [INF] Executed action ProductApi_Task.Controllers.UserController.AddUser (ProductApi_Task) in 53.3994ms
+2024-10-22 14:57:10.235 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.UserController.AddUser (ProductApi_Task)'
+2024-10-22 14:57:10.235 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:57:10.235 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:57:10.235 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:10.235 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:57:10.235 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5083/api/User - 201 null application/json; charset=utf-8 57.6633ms
+2024-10-22 14:57:16.058 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/User - null null
+2024-10-22 14:57:16.059 +05:30 [DBG] 1 candidate(s) found for the request path '/api/User'
+2024-10-22 14:57:16.059 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)' with route pattern 'api/User' is valid for the request path '/api/User'
+2024-10-22 14:57:16.059 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:57:16.059 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:57:16.059 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:57:16.060 +05:30 [INF] Route matched with {action = "GetAllUsers", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.UserDTO]] GetAllUsers() on controller ProductApi_Task.Controllers.UserController (ProductApi_Task).
+2024-10-22 14:57:16.060 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:57:16.060 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:57:16.060 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:57:16.060 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:57:16.061 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:57:16.061 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:57:16.062 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.UserController (ProductApi_Task)
+2024-10-22 14:57:16.064 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:57:16.064 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:57:16.065 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:57:16.065 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:16.065 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:16.065 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:57:16.065 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:57:16.065 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:57:16.066 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[UserName], [u].[Email]
+FROM [Users] AS [u]
+2024-10-22 14:57:16.068 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[UserID], [u].[UserName], [u].[Email]
+FROM [Users] AS [u]
+2024-10-22 14:57:16.069 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:16.069 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:57:16.070 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:16.070 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:57:16.070 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:57:16.070 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:57:16.071 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:57:16.071 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:57:16.071 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:57:16.071 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:57:16.071 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.UserDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:57:16.072 +05:30 [INF] Executed action ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task) in 11.117ms
+2024-10-22 14:57:16.072 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.UserController.GetAllUsers (ProductApi_Task)'
+2024-10-22 14:57:16.073 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:57:16.073 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:57:16.073 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:57:16.073 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:57:16.073 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/User - 200 null application/json; charset=utf-8 15.2672ms
+2024-10-22 14:58:35.613 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Cart/5 - null null
+2024-10-22 14:58:35.613 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Cart/5'
+2024-10-22 14:58:35.614 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)' with route pattern 'api/Cart/{userId}' is valid for the request path '/api/Cart/5'
+2024-10-22 14:58:35.614 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:58:35.614 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:58:35.614 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:58:35.614 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.CartDTO]] GetCartItems(Int32) on controller ProductApi_Task.Controllers.CartController (ProductApi_Task).
+2024-10-22 14:58:35.615 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:58:35.615 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:58:35.615 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:58:35.615 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:58:35.615 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:58:35.615 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:58:35.615 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:58:35.615 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:58:35.616 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:58:35.616 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:58:35.616 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:58:35.616 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:58:35.616 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:58:35.617 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:58:35.618 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:58:35.618 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:58:35.618 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:35.618 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:35.618 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:58:35.618 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:58:35.618 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:58:35.618 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:58:35.622 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:58:35.623 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:35.623 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:58:35.623 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:35.623 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:58:35.624 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:58:35.624 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:58:35.624 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:58:35.624 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:58:35.624 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:58:35.624 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:58:35.625 +05:30 [INF] Executing NotFoundObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-22 14:58:35.625 +05:30 [INF] Executed action ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task) in 10.2374ms
+2024-10-22 14:58:35.625 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:58:35.626 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:58:35.626 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:58:35.626 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:35.626 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:58:35.626 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Cart/5 - 404 null application/json; charset=utf-8 13.4071ms
+2024-10-22 14:58:59.462 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5083/api/Cart/5 - application/json 67
+2024-10-22 14:58:59.462 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Cart/5'
+2024-10-22 14:58:59.463 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)' with route pattern 'api/Cart/{userId}' is valid for the request path '/api/Cart/5'
+2024-10-22 14:58:59.463 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)'
+2024-10-22 14:58:59.463 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:58:59.463 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)'
+2024-10-22 14:58:59.463 +05:30 [INF] Route matched with {action = "AddToCart", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult AddToCart(Int32, ProductApi_Task.DTOs.CartDTO) on controller ProductApi_Task.Controllers.CartController (ProductApi_Task).
+2024-10-22 14:58:59.463 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:58:59.463 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:58:59.463 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:58:59.463 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:58:59.463 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:58:59.463 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:58:59.464 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:58:59.464 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:58:59.464 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:58:59.464 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:58:59.464 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:58:59.464 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:58:59.465 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:58:59.465 +05:30 [DBG] Attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO' ...
+2024-10-22 14:58:59.465 +05:30 [DBG] Attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO' using the name '' in request data ...
+2024-10-22 14:58:59.465 +05:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-10-22 14:58:59.465 +05:30 [DBG] Connection id "0HN7IFBFFKEIB", Request id "0HN7IFBFFKEIB:0000000E": started reading request body.
+2024-10-22 14:58:59.465 +05:30 [DBG] Connection id "0HN7IFBFFKEIB", Request id "0HN7IFBFFKEIB:0000000E": done reading request body.
+2024-10-22 14:58:59.466 +05:30 [DBG] JSON input formatter succeeded, deserializing to type 'ProductApi_Task.DTOs.CartDTO'
+2024-10-22 14:58:59.467 +05:30 [DBG] Done attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO'.
+2024-10-22 14:58:59.467 +05:30 [DBG] Done attempting to bind parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO'.
+2024-10-22 14:58:59.467 +05:30 [DBG] Attempting to validate the bound parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO' ...
+2024-10-22 14:58:59.469 +05:30 [DBG] Done attempting to validate the bound parameter 'cartDto' of type 'ProductApi_Task.DTOs.CartDTO'.
+2024-10-22 14:58:59.472 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:58:59.473 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:58:59.473 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:58:59.473 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.474 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.474 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:58:59.474 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:58:59.474 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:58:59.475 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32), @__cartDto_ProductID_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0 AND [c].[ProductID] = @__cartDto_ProductID_1
+2024-10-22 14:58:59.479 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32), @__cartDto_ProductID_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0 AND [c].[ProductID] = @__cartDto_ProductID_1
+2024-10-22 14:58:59.479 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.479 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:58:59.479 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.479 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:58:59.481 +05:30 [DBG] 'AppDbContext' generated a temporary value for the property 'Cart.CartID'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:58:59.481 +05:30 [DBG] Context 'AppDbContext' started tracking 'Cart' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:58:59.481 +05:30 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-22 14:58:59.481 +05:30 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-22 14:58:59.482 +05:30 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-22 14:58:59.483 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.483 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.484 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:58:59.484 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:58:59.484 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:58:59.484 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Carts] ([ProductID], [Quantity], [UserID])
+OUTPUT INSERTED.[CartID]
+VALUES (@p0, @p1, @p2);
+2024-10-22 14:58:59.489 +05:30 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Carts] ([ProductID], [Quantity], [UserID])
+OUTPUT INSERTED.[CartID]
+VALUES (@p0, @p1, @p2);
+2024-10-22 14:58:59.489 +05:30 [DBG] The foreign key property 'Cart.CartID' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-22 14:58:59.489 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.489 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:58:59.490 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.490 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:58:59.490 +05:30 [DBG] An entity of type 'Cart' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:58:59.490 +05:30 [DBG] SaveChanges completed for 'AppDbContext' with 1 entities written to the database.
+2024-10-22 14:58:59.490 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:58:59.490 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-22 14:58:59.490 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:58:59.491 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:58:59.491 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:58:59.491 +05:30 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-22 14:58:59.491 +05:30 [DBG] Found the endpoints ["ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)"] for address (userId=[5],action=[GetCartItems],controller=[Cart])
+2024-10-22 14:58:59.491 +05:30 [DBG] Successfully processed template api/Cart/{userId} for ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task) resulting in /api/Cart/5 and 
+2024-10-22 14:58:59.491 +05:30 [DBG] Link generation succeeded for endpoints ["ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)"] with result /api/Cart/5
+2024-10-22 14:58:59.492 +05:30 [INF] Executed action ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task) in 28.467ms
+2024-10-22 14:58:59.492 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.CartController.AddToCart (ProductApi_Task)'
+2024-10-22 14:58:59.492 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:58:59.492 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:58:59.492 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:58:59.492 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:58:59.492 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5083/api/Cart/5 - 201 null application/json; charset=utf-8 30.0727ms
+2024-10-22 14:59:09.273 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Cart/5 - null null
+2024-10-22 14:59:09.274 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Cart/5'
+2024-10-22 14:59:09.274 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)' with route pattern 'api/Cart/{userId}' is valid for the request path '/api/Cart/5'
+2024-10-22 14:59:09.274 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:59:09.274 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:59:09.274 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:59:09.275 +05:30 [INF] Route matched with {action = "GetCartItems", controller = "Cart"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.CartDTO]] GetCartItems(Int32) on controller ProductApi_Task.Controllers.CartController (ProductApi_Task).
+2024-10-22 14:59:09.275 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:59:09.275 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:59:09.275 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:59:09.275 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:59:09.275 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:59:09.276 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:59:09.276 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.CartController (ProductApi_Task)
+2024-10-22 14:59:09.277 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:59:09.277 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:59:09.277 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:09.277 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:09.277 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:59:09.278 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:09.279 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:59:09.281 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:59:09.281 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:59:09.281 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:09.282 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:09.282 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:59:09.282 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:09.282 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:09.282 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:59:09.285 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:59:09.286 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:09.286 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:59:09.286 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:09.286 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:59:09.286 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:59:09.287 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:59:09.287 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:59:09.287 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:59:09.287 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:59:09.287 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:59:09.287 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.CartDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:59:09.287 +05:30 [INF] Executed action ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task) in 11.9091ms
+2024-10-22 14:59:09.288 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.CartController.GetCartItems (ProductApi_Task)'
+2024-10-22 14:59:09.288 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:59:09.288 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:59:09.288 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:09.288 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:59:09.288 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Cart/5 - 200 null application/json; charset=utf-8 14.9112ms
+2024-10-22 14:59:31.100 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5083/api/Order/5 - null 0
+2024-10-22 14:59:31.100 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Order/5'
+2024-10-22 14:59:31.100 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)' with route pattern 'api/Order/{userId}' is valid for the request path '/api/Order/5'
+2024-10-22 14:59:31.101 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)'
+2024-10-22 14:59:31.101 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:59:31.101 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)'
+2024-10-22 14:59:31.101 +05:30 [INF] Route matched with {action = "PlaceOrder", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult PlaceOrder(Int32) on controller ProductApi_Task.Controllers.OrderController (ProductApi_Task).
+2024-10-22 14:59:31.101 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:59:31.101 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:59:31.101 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:59:31.102 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:59:31.102 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:59:31.102 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:59:31.103 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:59:31.104 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:59:31.104 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:59:31.104 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:31.104 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:31.104 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:59:31.104 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:31.105 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:59:31.106 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:59:31.106 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:59:31.106 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.106 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.106 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:59:31.106 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.106 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.106 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:59:31.123 +05:30 [INF] Executed DbCommand (16ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[UserID], [c].[ProductID], [c].[Quantity]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:59:31.123 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.123 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:59:31.124 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.124 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:59:31.127 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.128 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.128 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:59:31.128 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.128 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.128 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductID], [p].[Price], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__p_0
+2024-10-22 14:59:31.132 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[ProductID], [p].[Price], [p].[ProductName]
+FROM [Products] AS [p]
+WHERE [p].[ProductID] = @__p_0
+2024-10-22 14:59:31.133 +05:30 [DBG] Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:59:31.133 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.133 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:59:31.133 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.133 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:59:31.134 +05:30 [DBG] 'AppDbContext' generated a temporary value for the property 'Order.OrderId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:59:31.134 +05:30 [DBG] Context 'AppDbContext' started tracking 'Order' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:59:31.135 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.135 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.135 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:59:31.135 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.135 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.135 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:59:31.137 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID], [c].[ProductID], [c].[Quantity], [c].[UserID]
+FROM [Carts] AS [c]
+WHERE [c].[UserID] = @__userId_0
+2024-10-22 14:59:31.138 +05:30 [DBG] Context 'AppDbContext' started tracking 'Cart' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:59:31.138 +05:30 [DBG] An entity of type 'Cart' tracked by 'AppDbContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:59:31.138 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.138 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:59:31.138 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.139 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:59:31.139 +05:30 [DBG] SaveChanges starting for 'AppDbContext'.
+2024-10-22 14:59:31.139 +05:30 [DBG] DetectChanges starting for 'AppDbContext'.
+2024-10-22 14:59:31.139 +05:30 [DBG] DetectChanges completed for 'AppDbContext'.
+2024-10-22 14:59:31.140 +05:30 [DBG] Executing 2 update commands as a batch.
+2024-10-22 14:59:31.141 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.142 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.142 +05:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-10-22 14:59:31.142 +05:30 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-10-22 14:59:31.142 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:59:31.142 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.143 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:31.143 +05:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Carts]
+OUTPUT 1
+WHERE [CartID] = @p0;
+INSERT INTO [Orders] ([Total_Amount], [UserID])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p1, @p2);
+2024-10-22 14:59:31.151 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Carts]
+OUTPUT 1
+WHERE [CartID] = @p0;
+INSERT INTO [Orders] ([Total_Amount], [UserID])
+OUTPUT INSERTED.[OrderId]
+VALUES (@p1, @p2);
+2024-10-22 14:59:31.152 +05:30 [DBG] The foreign key property 'Order.OrderId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-10-22 14:59:31.152 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.152 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:59:31.152 +05:30 [DBG] Committing transaction.
+2024-10-22 14:59:31.153 +05:30 [DBG] Committed transaction.
+2024-10-22 14:59:31.153 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.153 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:59:31.154 +05:30 [DBG] Disposing transaction.
+2024-10-22 14:59:31.154 +05:30 [DBG] An entity of type 'Order' tracked by 'AppDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:59:31.154 +05:30 [DBG] An entity of type 'Cart' tracked by 'AppDbContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 14:59:31.154 +05:30 [DBG] SaveChanges completed for 'AppDbContext' with 2 entities written to the database.
+2024-10-22 14:59:31.154 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:59:31.154 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-10-22 14:59:31.155 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:59:31.155 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:59:31.155 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:59:31.155 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-22 14:59:31.155 +05:30 [INF] Executed action ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task) in 53.3518ms
+2024-10-22 14:59:31.155 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.OrderController.PlaceOrder (ProductApi_Task)'
+2024-10-22 14:59:31.155 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:59:31.155 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:59:31.155 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:31.155 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:59:31.156 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5083/api/Order/5 - 200 null application/json; charset=utf-8 55.5883ms
+2024-10-22 14:59:45.776 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Order/5 - null null
+2024-10-22 14:59:45.776 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Order/5'
+2024-10-22 14:59:45.776 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)' with route pattern 'api/Order/{userId}' is valid for the request path '/api/Order/5'
+2024-10-22 14:59:45.776 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)'
+2024-10-22 14:59:45.777 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 14:59:45.777 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)'
+2024-10-22 14:59:45.778 +05:30 [INF] Route matched with {action = "GetOrdersByUser", controller = "Order"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.OrderDTO]] GetOrdersByUser(Int32) on controller ProductApi_Task.Controllers.OrderController (ProductApi_Task).
+2024-10-22 14:59:45.778 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 14:59:45.778 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 14:59:45.778 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 14:59:45.778 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 14:59:45.779 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 14:59:45.779 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:59:45.779 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.OrderController (ProductApi_Task)
+2024-10-22 14:59:45.780 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:59:45.780 +05:30 [DBG] Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2024-10-22 14:59:45.780 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:45.780 +05:30 [DBG] Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:45.781 +05:30 [DBG] Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2024-10-22 14:59:45.781 +05:30 [DBG] Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2024-10-22 14:59:45.782 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 14:59:45.783 +05:30 [DBG] Creating DbConnection.
+2024-10-22 14:59:45.784 +05:30 [DBG] Created DbConnection. (0ms).
+2024-10-22 14:59:45.784 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:45.784 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:45.784 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 14:59:45.784 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:45.784 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-10-22 14:59:45.785 +05:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[UserID], [o].[Total_Amount]
+FROM [Orders] AS [o]
+WHERE [o].[UserID] = @__userId_0
+2024-10-22 14:59:45.788 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [o].[OrderId], [o].[UserID], [o].[Total_Amount]
+FROM [Orders] AS [o]
+WHERE [o].[UserID] = @__userId_0
+2024-10-22 14:59:45.788 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:45.789 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 0ms reading results.
+2024-10-22 14:59:45.789 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:45.790 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (0ms).
+2024-10-22 14:59:45.790 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 14:59:45.790 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 14:59:45.790 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 14:59:45.791 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 14:59:45.791 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 14:59:45.791 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 14:59:45.791 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[ProductApi_Task.DTOs.OrderDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 14:59:45.791 +05:30 [INF] Executed action ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task) in 12.6559ms
+2024-10-22 14:59:45.792 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.OrderController.GetOrdersByUser (ProductApi_Task)'
+2024-10-22 14:59:45.792 +05:30 [DBG] Connection id "0HN7IFBFFKEIB" completed keep alive response.
+2024-10-22 14:59:45.792 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 14:59:45.792 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 14:59:45.792 +05:30 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-10-22 14:59:45.792 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Order/5 - 200 null application/json; charset=utf-8 16.8271ms
+2024-10-22 16:16:09.753 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-22 16:16:09.848 +05:30 [DBG] Hosting starting
+2024-10-22 16:16:09.924 +05:30 [INF] Now listening on: http://localhost:5083
+2024-10-22 16:16:09.926 +05:30 [DBG] Loaded hosting startup assembly ProductApi_Task
+2024-10-22 16:16:09.927 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-22 16:16:09.929 +05:30 [INF] Hosting environment: Development
+2024-10-22 16:16:09.930 +05:30 [INF] Content root path: C:\Users\ganesh_belamara\Desktop\DotNet\ProductApi_Task
+2024-10-22 16:16:09.931 +05:30 [DBG] Hosting started
+2024-10-22 16:16:56.933 +05:30 [DBG] Connection id "0HN7IGRCOTSGD" accepted.
+2024-10-22 16:16:56.936 +05:30 [DBG] Connection id "0HN7IGRCOTSGD" started.
+2024-10-22 16:16:56.936 +05:30 [DBG] Connection id "0HN7IGRCOTSGE" accepted.
+2024-10-22 16:16:56.938 +05:30 [DBG] Connection id "0HN7IGRCOTSGE" started.
+2024-10-22 16:16:56.974 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/swagger/index.html - null null
+2024-10-22 16:16:56.979 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-22 16:16:57.001 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-22 16:16:57.002 +05:30 [DBG] Request did not match any endpoints
+2024-10-22 16:16:57.048 +05:30 [DBG] Connection id "0HN7IGRCOTSGD" completed keep alive response.
+2024-10-22 16:16:57.050 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/swagger/index.html - 200 null text/html;charset=utf-8 77.2299ms
+2024-10-22 16:16:57.171 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/swagger/v1/swagger.json - null null
+2024-10-22 16:16:57.176 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-22 16:16:57.176 +05:30 [DBG] Request did not match any endpoints
+2024-10-22 16:16:57.248 +05:30 [DBG] Connection id "0HN7IGRCOTSGD" completed keep alive response.
+2024-10-22 16:16:57.252 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 81.3363ms
+2024-10-22 16:18:07.241 +05:30 [DBG] Connection id "0HN7IGRCOTSGE" received FIN.
+2024-10-22 16:18:07.250 +05:30 [DBG] Connection id "0HN7IGRCOTSGE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 16:18:07.254 +05:30 [DBG] Connection id "0HN7IGRCOTSGE" disconnecting.
+2024-10-22 16:18:07.257 +05:30 [DBG] Connection id "0HN7IGRCOTSGE" stopped.
+2024-10-22 16:19:08.287 +05:30 [DBG] Connection id "0HN7IGRCOTSGD" disconnecting.
+2024-10-22 16:19:08.290 +05:30 [DBG] Connection id "0HN7IGRCOTSGD" stopped.
+2024-10-22 16:19:08.292 +05:30 [DBG] Connection id "0HN7IGRCOTSGD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-22 16:19:27.719 +05:30 [DBG] Connection id "0HN7IGRCOTSGF" accepted.
+2024-10-22 16:19:27.720 +05:30 [DBG] Connection id "0HN7IGRCOTSGF" started.
+2024-10-22 16:19:27.722 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5083/api/Product - null null
+2024-10-22 16:19:27.725 +05:30 [DBG] 1 candidate(s) found for the request path '/api/Product'
+2024-10-22 16:19:27.729 +05:30 [DBG] Endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)' with route pattern 'api/Product' is valid for the request path '/api/Product'
+2024-10-22 16:19:27.730 +05:30 [DBG] Request matched endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)'
+2024-10-22 16:19:27.734 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-10-22 16:19:27.736 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-10-22 16:19:27.737 +05:30 [INF] Executing endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)'
+2024-10-22 16:19:27.745 +05:30 [INF] Route matched with {action = "GetAllProducts", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[ProductApi_Task.DTOs.ProductDTO]] GetAllProducts() on controller ProductApi_Task.Controllers.ProductController (ProductApi_Task).
+2024-10-22 16:19:27.748 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-10-22 16:19:27.750 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-10-22 16:19:27.753 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-10-22 16:19:27.754 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-10-22 16:19:27.755 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-10-22 16:19:27.757 +05:30 [DBG] Executing controller factory for controller ProductApi_Task.Controllers.ProductController (ProductApi_Task)
+2024-10-22 16:19:27.853 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-10-22 16:19:27.875 +05:30 [DBG] Executed controller factory for controller ProductApi_Task.Controllers.ProductController (ProductApi_Task)
+2024-10-22 16:19:28.299 +05:30 [WRN] No store type was specified for the decimal property 'Total_Amount' on entity type 'Order'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-10-22 16:19:28.471 +05:30 [DBG] Entity Framework Core 8.0.10 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.10' with options: None
+2024-10-22 16:19:28.494 +05:30 [DBG] Compiling query expression: 
+'DbSet<Product>()'
+2024-10-22 16:19:28.650 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Product>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Product.ProductID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Product.Price (decimal) Required, 1], [Property: Product.ProductName (string) Required, 2] }
+        SELECT p.ProductID, p.Price, p.ProductName
+        FROM Products AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Product>, 
+    ProductApi_Task.Data.AppDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-10-22 16:19:28.679 +05:30 [DBG] Creating DbConnection.
+2024-10-22 16:19:28.709 +05:30 [DBG] Created DbConnection. (25ms).
+2024-10-22 16:19:28.713 +05:30 [DBG] Opening connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 16:19:28.953 +05:30 [DBG] Opened connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 16:19:28.956 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-10-22 16:19:28.960 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-10-22 16:19:28.963 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-10-22 16:19:28.972 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[Price], [p].[ProductName]
+FROM [Products] AS [p]
+2024-10-22 16:19:28.996 +05:30 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[Price], [p].[ProductName]
+FROM [Products] AS [p]
+2024-10-22 16:19:29.017 +05:30 [DBG] Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 16:19:29.029 +05:30 [DBG] Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 16:19:29.031 +05:30 [DBG] Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 16:19:29.032 +05:30 [DBG] Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 16:19:29.033 +05:30 [DBG] Context 'AppDbContext' started tracking 'Product' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-10-22 16:19:29.036 +05:30 [DBG] Closing data reader to 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 16:19:29.041 +05:30 [DBG] A data reader for 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' is being disposed after spending 38ms reading results.
+2024-10-22 16:19:29.043 +05:30 [DBG] Closing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 16:19:29.049 +05:30 [DBG] Closed connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB' (4ms).
+2024-10-22 16:19:29.053 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-10-22 16:19:29.056 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-10-22 16:19:29.058 +05:30 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-10-22 16:19:29.059 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-10-22 16:19:29.060 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-10-22 16:19:29.061 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-10-22 16:19:29.063 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ProductApi_Task.Models.Product, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ProductApi_Task.DTOs.ProductDTO, ProductApi_Task, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-22 16:19:29.075 +05:30 [INF] Executed action ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task) in 1314.1782ms
+2024-10-22 16:19:29.078 +05:30 [INF] Executed endpoint 'ProductApi_Task.Controllers.ProductController.GetAllProducts (ProductApi_Task)'
+2024-10-22 16:19:29.081 +05:30 [DBG] Connection id "0HN7IGRCOTSGF" completed keep alive response.
+2024-10-22 16:19:29.084 +05:30 [DBG] 'AppDbContext' disposed.
+2024-10-22 16:19:29.089 +05:30 [DBG] Disposing connection to database 'ProductDb_Task' on server '(localdb)\MSSQLLocalDB'.
+2024-10-22 16:19:29.094 +05:30 [DBG] Disposed connection to database '' on server '' (4ms).
+2024-10-22 16:19:29.097 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5083/api/Product - 200 null application/json; charset=utf-8 1375.0698ms
+2024-10-22 16:21:40.381 +05:30 [DBG] Connection id "0HN7IGRCOTSGF" disconnecting.
+2024-10-22 16:21:40.382 +05:30 [DBG] Connection id "0HN7IGRCOTSGF" stopped.
+2024-10-22 16:21:40.383 +05:30 [DBG] Connection id "0HN7IGRCOTSGF" sending FIN because: "The Socket transport's send loop completed gracefully."
