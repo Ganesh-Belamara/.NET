@@ -1,5 +1,4 @@
 using ProductApi_Task.Models;
-using System.Collections.Generic;
 
 namespace ProductApi_Task.DataAccess
 {
@@ -11,6 +10,6 @@ namespace ProductApi_Task.DataAccess
         void AddUser(User user);
         void UpdateUser(User user);
         void SoftDeleteUser(int userId); // Keep this for soft deleting users
-        void ToggleUserActiveStatus(int userId, bool isActive);
+        //void ToggleUserActiveStatus(int userId, bool isActive);
     }
 }

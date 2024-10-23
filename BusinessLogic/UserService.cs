@@ -83,8 +83,7 @@ namespace ProductApi_Task.BusinessLogic
             if (user != null)
             {
                 user.IsActive = false; // Set active status to false
-                user.IsDeleted = true; // Mark as deleted
-                _userRepository.UpdateUser(user); // Update the user in the repository
+               _userRepository.UpdateUser(user); // Update the user in the repository
             }
         }
     }

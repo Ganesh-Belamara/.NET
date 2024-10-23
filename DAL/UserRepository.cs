@@ -1,7 +1,5 @@
 using ProductApi_Task.Data;
 using ProductApi_Task.Models;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace ProductApi_Task.DataAccess
 {
@@ -16,12 +14,15 @@ namespace ProductApi_Task.DataAccess
 
         public IEnumerable<User> GetAllUsers()
         {
-            return _context.Users.Where(u => !u.IsDeleted).ToList(); // Only return active users
+            var activeUsers = _context.Users.Where(u => u.IsActive).ToList(); // Only return active users
+            var inactiveUsers = _context.Users.Where(u => !u.IsActive).ToList(); // Only return active users
+            return activeUsers;
+
         }
 
         public IEnumerable<User> GetAllUsersIncludingDeleted()
         {
-            return _context.Users.ToList(); // Return all users including soft-deleted ones
+            return _context.Users.ToList(); // Will return active & inactive users
         }
 
         public User GetUserById(int userId)
@@ -47,21 +48,12 @@ namespace ProductApi_Task.DataAccess
             var user = _context.Users.Find(userId);
             if (user != null)
             {
-            user.IsDeleted = true; // Mark as soft-deleted
+            //user.IsDeleted = true; // Mark as soft-deleted
             user.IsActive = false; // Set as inactive
             _context.Users.Update(user);
             _context.SaveChanges();
             }
         }
 
-        public void ToggleUserActiveStatus(int userId, bool isActive)
-        {
-            var user = _context.Users.Find(userId);
-            if (user != null)
-            {
-                user.IsActive = isActive; // Update active status
-                _context.SaveChanges();
-            }
-        }
     }
 }
